@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local project data and generated reports
+data/input/*
+!data/input/.gitkeep
+data/output/*
+!data/output/.gitkeep
+*.tmp
+~$*.xlsx
+
+# Local secrets
+.env
+.env.*
+!.env.example
